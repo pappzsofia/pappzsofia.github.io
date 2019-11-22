@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0 3vw;
+}
+img.nagyok {
+  margin: 20px 0px; /*margó elötte utána, bal jobb*/
+  border: 5px solid green;
+  border-radius: 4px;
+  padding: 5px;
+}
+h1 {
+  text-decoration: underline;
+}
+h2 {
+  text-decoration: underline;
+}
+
+#tanulmanyok img {
+  height: 250px;
+}
+#magamrol img {
+  width: 100px;
+  float: right;
+}
+#munkahely img {
+  width: 300px;
+}
+#hobbim img {
+  width: 250px;
+}
+#celok img {
+  width: 250px;
+}
+#munkahelyeim img {
+  width: 250px;
+}
+#elerteredmenyek img {
+  width: 300px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  font-family: "Nunito", sans-serif;
+}
+nav ul li a {
+  color: white;
+  padding: 14px 16px;
+  display: block;
+}
+nav ul {
+  background-color: rgb(2, 165, 200);
+}
+body {
+  font-family: "Muli", sans-serif;
+}
+li:hover {
+  background-color: gray;
+}
+#hobbykepek img {
+  width: calc(90vw / 6);
+  height: calc(90vw / 6);
+  margin: 0px 5px 0 0;
+  display: block;
+  object-fit: cover;
+}
+#hobbykepek {
+  justify-content: center;
+  border: 3px solid green;
+  border-radius: 4px;
+  padding: 5px;
+}
+#hobby1 img {
+  margin: 0 5px;
+}
+#felfele {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border: 3px solid rgb(243, 220, 11);
+  border-radius: 4px;
+  font-family: "Muli", sans-serif;
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+}
